@@ -8,6 +8,14 @@ The user's answers are stored in the web browser local storage. When all questio
 
 It is used jQuery to deliver to the user a better experience with the dynamic and refreshless web manipulation.
 
+### Demo
+
+Quiz options
+![Quiz options](/attachments/2023-01-12_16-51.png)
+
+Quiz results
+![Quiz results](/attachments/2023-01-12_16-49.png)
+
 ## Technologies used on this project
 
 - HTML, CSS, JS
@@ -19,6 +27,7 @@ It is used jQuery to deliver to the user a better experience with the dynamic an
 Clone this project:
 
 ```
+git clone https://github.com/emeath/general-quiz-jquery.git
 ```
 
 Go to the directory where the project was cloned.
