@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+        <h1>Exam</h1>
+
+        <div id="score">
+            <h2>You scored <span id="points">0</span>/3 (<span id="percentage"></span>%)</h2>
+            <button>Try Again</button>
+        </div>
+
+        <div id="timer">
+            <p>
+                <span>30</span> seconds left to this question.
+            </p>
+        </div>
+
+        <div id="question">
+            <b>Question <span></span>)</b> 
+            <p>
+                ipsum dolor sit amet consectetur, adipisicing elit. Hic omnis, nemo odio obcaecati deserunt ipsum voluptatibus sequi voluptatum esse adipisci doloribus natus aut aperiam ad veniam ipsam dolor magnam? Asperiores!
+            </p>
+        </div>
+
+        <div id="multiple-choices">
+            
+            <div class="row">
+                <div class="choices">
+                    <input type="radio" name="answer" id="option-a">
+                    <label for="option-a">A )</label>
+                </div>
+                <div class="descriptions">
+                    <p id="description-a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nobis doloribus placeat officia suscipit molestias! Natus autem, repellat consequuntur, voluptas enim blanditiis incidunt, similique ullam id quaerat ea omnis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, molestias nihil quaerat possimus laudantium in nisi voluptates aspernatur odio expedita aut! Tempora voluptates nisi necessitatibus dolorem laborum quidem magnam voluptate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ab iste asperiores non veritatis molestias mollitia, sunt excepturi, minima, deleniti commodi quisquam iusto ipsa saepe. Distinctio cum voluptate possimus officiis.</p>
+                    <br>
+                </div>
+                <br style="clear:both;">
+            </div>
+
+            <div class="row">
+                <div class="choices">
+                    <input type="radio" name="answer" id="option-b">
+                    <label for="option-b">B )</label>
+                </div>
+                <div class="descriptions">
+                    <p id="description-b">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nobis doloribus placeat officia suscipit molestias! Natus autem, repellat consequuntur, voluptas enim blanditiis incidunt, similique ullam id quaerat ea omnis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, molestias nihil quaerat possimus laudantium in nisi voluptates aspernatur odio expedita aut! Tempora voluptates nisi necessitatibus dolorem laborum quidem magnam voluptate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ab iste asperiores non veritatis molestias mollitia, sunt excepturi, minima, deleniti commodi quisquam iusto ipsa saepe. Distinctio cum voluptate possimus officiis.</p>
+                    <br>
+                </div>
+                <br style="clear:both;">
+            </div>
+
+            <div class="row">
+                <div class="choices">
+                    <input type="radio" name="answer" id="option-c">
+                    <label for="option-c">C )</label>
+                </div>
+                <div class="descriptions">
+                    <p id="description-c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nobis doloribus placeat officia suscipit molestias! Natus autem, repellat consequuntur, voluptas enim blanditiis incidunt, similique ullam id quaerat ea omnis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, molestias nihil quaerat possimus laudantium in nisi voluptates aspernatur odio expedita aut! Tempora voluptates nisi necessitatibus dolorem laborum quidem magnam voluptate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ab iste asperiores non veritatis molestias mollitia, sunt excepturi, minima, deleniti commodi quisquam iusto ipsa saepe. Distinctio cum voluptate possimus officiis.</p>
+                    <br>
+                </div>
+                <br style="clear:both;">
+            </div>
+
+            <div class="row">
+                <div class="choices">
+                    <input type="radio" name="answer" id="option-d">
+                    <label for="option-d">D )</label>
+                </div>
+                <div class="descriptions">
+                    <p id="description-d">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nobis doloribus placeat officia suscipit molestias! Natus autem, repellat consequuntur, voluptas enim blanditiis incidunt, similique ullam id quaerat ea omnis fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, molestias nihil quaerat possimus laudantium in nisi voluptates aspernatur odio expedita aut! Tempora voluptates nisi necessitatibus dolorem laborum quidem magnam voluptate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ab iste asperiores non veritatis molestias mollitia, sunt excepturi, minima, deleniti commodi quisquam iusto ipsa saepe. Distinctio cum voluptate possimus officiis.</p>
+                    <br>
+                </div>
+                <br style="clear:both;">
+            </div>
+            
+        </div>
+
+        <button id="send">Send</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
