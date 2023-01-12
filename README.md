@@ -11,7 +11,7 @@ It is used jQuery to deliver to the user a better experience with the dynamic an
 ### Demo
 
 Quiz options
-![Quiz options](/attachments/2023-01-12_16-51.png)
+![Quiz options](/attachments/Peek-2023-01-12-16-57.gif)
 
 Quiz results
 ![Quiz results](/attachments/2023-01-12_16-49.png)
